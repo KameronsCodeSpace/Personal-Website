@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.Navbar {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+}
+
+.Navbar ul{
+  list-style: none;
+  text-align: right
+}
+
+.Navbar ul li{
+  color: black;
+  font-size: 1.5em;
+  padding-right: 5vh;
+  display: inline;
+}
+
+.Navbar > .active {
+  border-bottom: 1px solid #333;
+}
+
+.Landing-Section {
+  background: url("../src/images/background.jpg") no-repeat center center; 
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; */
+  background-size: cover;
+  height: 99.5vh;
+  padding: 1px;
+}
+
+.Profile-Section {
+  height: 99.5vh;
+  background-color: red;
+  padding: 1px;
+}
+
+.Projects-Section {
+  height: 99.5vh;
+  background-color: green;
+  padding: 1px;
+}
+
+.Skills-Section {
+  height: 99.5vh;
+  background-color: blue;
+  padding: 1px;
+}
+
+.Achievements-Section {
+  height: 99.5vh;
+  background-color: yellow;
+  padding: 1px;
+}
+
+.Hobbies-Section {
+  height: 99.5vh;
+  background-color: orange;
+  padding: 1px;
+}
+
+.Contact-Section {
+  height: 99.5vh;
+  background-color: purple;
+  padding: 1px;
+}
