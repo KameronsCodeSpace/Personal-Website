@@ -3,8 +3,8 @@
 }
 
 :root {
-  --primary-color: rgba(35, 35, 35, .75);
-  --overlay-color: rgba(135, 135, 135, .85);
+  --primary-color: rgba(13, 110, 139, 0.3);
+  --overlay-color: rgba(24, 39, 51, .85);
   --menu-speed: .75s;
 }
 
@@ -57,15 +57,26 @@
 }
 
 .Landing-Section {
-  background: url("../src/images/background.jpg") no-repeat center center; 
-  /* background-color: rgba(30, 30, 30, 0.5); */
-  background-size: cover;
+  background-color: var(--primary-color);
+  color: #fff;
   height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.Landing-Section:before {
+  content: '';
+  background: url("../src/images/background.jpg") no-repeat center center/cover; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
 }
 
 .Landing-Section .intro {
