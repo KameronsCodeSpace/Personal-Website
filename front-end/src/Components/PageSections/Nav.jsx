@@ -47,7 +47,7 @@ function Nav() {
                                     >Skills</Link>
                                 </li>
 
-                                <li>
+                                {/* <li>
                                     <Link
                                         activeClass="active"
                                         to="Achievements"
@@ -67,7 +67,7 @@ function Nav() {
                                         offset={0}
                                         duration={500}
                                     >Hobbies</Link>
-                                </li>
+                                </li> */}
 
                                 <li>
                                     <Link
