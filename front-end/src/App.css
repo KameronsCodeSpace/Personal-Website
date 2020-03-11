@@ -3,8 +3,8 @@
 }
 
 :root {
-  --primary-color: rgba(13, 110, 139, 0.3);
-  --overlay-color: rgba(24, 39, 51, .85);
+  --primary-color: rgba(113, 22, 141, 0.15);
+  --overlay-color: rgba(47, 24, 51, 0.85);
   --menu-speed: .75s;
 }
 
@@ -16,7 +16,136 @@
 }
 .nav-wrap {
   position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
 
+.nav-wrap .toggler {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  z-index: 2;
+  opacity: 0;
+}
+
+.nav-wrap .hamburger {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 60px;
+  height: 60px;
+  padding: 1rem;
+  background: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* hamburger lines */
+.nav-wrap .hamburger > div {
+  position: relative;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s ease;
+}
+
+/*Style for top and bottom lines */
+.nav-wrap .hamburger > div:before,
+.nav-wrap .hamburger > div:after  {
+  content: '';
+  position: absolute;
+  z-index: 2;
+  top: -10px;
+  width: 100%;
+  height: 2px;
+  background: inherit;
+}
+
+/* setting bottom line */
+.nav-wrap .hamburger > div:after  {
+top: 10px;
+}
+
+/* Toggler Animation */
+.nav-wrap .toggler:checked + .hamburger > div {
+  transform: rotate(135deg)
+}
+
+/* Cross lines */
+.nav-wrap .toggler:checked + .hamburger > div:before,
+.nav-wrap .toggler:checked + .hamburger > div:after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+/*rotating on hover */
+.nav-wrap .toggler:checked:hover + .hamburger > div {
+  transform: rotate(225deg);
+}
+
+/* Show Menu */
+.nav-wrap .toggler:checked ~ .nav {
+  visibility: visible;
+}
+
+.nav-wrap .toggler:checked ~ .nav > div {
+  transform: scale(1);
+  transition-duration: var(--menu-speed);
+}
+
+.nav-wrap .toggler:checked ~ .nav > div > div {
+  opacity: 1;
+  transition: opacity 0.4s ease;
+}
+
+.nav-wrap .nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-wrap .nav > div {
+  background: var(--overlay-color);
+  border-radius: 50%;
+  width: 200vw;
+  height: 200vw;
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0);
+  transition: all 0.4s ease;
+}
+
+.nav-wrap .nav > div > div {
+  text-align: center;
+  max-width: 90vw;
+  max-height: 100vh;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.nav-wrap .nav > div > div > ul > li {
+  list-style: none;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 1rem;
 }
 
 .nav {
@@ -34,12 +163,12 @@
 }
 
 .nav ul {
-  display: flex;
-  list-style: none;
+  /* display: flex; */
+  /* list-style: none; */
 }
 
 .nav h4 {
-  margin: .5vw 1.5vw;
+  /* margin: .5vw 1.5vw; */
   /* width: 10%; */
   /* align-items: left; */
   /* margin: 1vh 1.5vh; */
@@ -47,13 +176,13 @@
 }
 
 .nav li{
-  margin: .5vw 1.5vw;
+  /* margin: .5vw 1.5vw; */
   /* font-size: 1.5vw; */
   /* padding-left: 3vh; */
 }
 
 .active {
-  border-bottom: 1px solid #333;
+  border-bottom: 2px solid rgb(255, 255, 255);
 }
 
 .Landing-Section {
@@ -70,7 +199,9 @@
 
 .Landing-Section:before {
   content: '';
-  background: url("../src/images/background.jpg") no-repeat center center/cover; 
+  /* background: url("../src/images/background.jpg") no-repeat center center/cover;  */
+  background: url("../src/images/starry_sky.jpg") no-repeat center center/cover; 
+
   position: absolute;
   top: 0;
   left: 0;
@@ -129,7 +260,7 @@ flex-grow: .1;
   }
 
   .Landing-Section .intro .btn:hover {
-    background-color:#6c7c7c;
+    background-color:#1d84d8;
   }
 
   .Landing-Section .intro .btn:active {

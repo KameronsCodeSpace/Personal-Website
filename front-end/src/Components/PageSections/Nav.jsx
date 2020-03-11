@@ -5,14 +5,14 @@ function Nav() {
     return (
         <div>
             <div className='nav-wrap'>
-                <input type='checkbox' class='toggler' />
+                <input type='checkbox' className='toggler' />
                 <div className='hamburger'><div></div></div>
                 <nav className='nav'>
                     <div>
                         <div>
-                            <div className='logo'>
+                            {/* <div className='logo'>
                                 <h4>KAMERON</h4>
-                            </div>
+                            </div> */}
                             <ul>
                                 <li>
                                     <Link
