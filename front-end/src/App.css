@@ -270,8 +270,57 @@ flex-grow: .1;
 
 .Profile-Section {
   height: 100vh;
-  background-color: red;
+  background-color: #fff;
   border: 1px solid rgba(1, 1, 1, 0.5);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-gap: 1rem; */
+  padding: 1.5rem;
+}
+
+.Profile-Section > div {
+  /* background-color: rgb(119, 114, 114); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* padding: rem; */
+  /* margin-top: 5rem; */
+  align-items: center;
+}
+
+.Profile-Section > div > p {
+  margin-bottom: 2rem;
+}
+
+.Profile-Section .btn {
+  position: relative;
+  width: 17vw;
+  box-shadow: inset 0px 1px 3px 0px #91b8b3;
+  background-color: rgb(113, 22, 141);
+  /* border-radius: 2px; */
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 1.5vw;
+  padding: 1vh;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #47568f;
+}
+
+.Profile-Section .btn:hover {
+  background-color:#1d84d8;
+}
+
+.Profile-Section .btn:active {
+  position:relative;
+  top:1px;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.Profile-Section .align-left {
+  text-align: left;
 }
 
 .Projects-Section {
