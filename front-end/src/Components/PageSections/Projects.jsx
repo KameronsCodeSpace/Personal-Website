@@ -6,7 +6,6 @@ import project4 from '../../images/Project4.png';
 import project5 from '../../images/Project5.jpeg';
 import project6 from '../../images/Project6.jpg';
 
-
 function Projects() {
     return (
         <div className='Projects-Section' id="Projects">

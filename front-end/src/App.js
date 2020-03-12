@@ -6,8 +6,8 @@ import Nav from './Components/PageSections/Nav'
 import Profile from './Components/PageSections/Profile'
 import Projects from './Components/PageSections/Projects'
 import Skills from './Components/PageSections/Skills'
-import Acievements from './Components/PageSections/Achievements'
-import Hobbies from './Components/PageSections/Hobbies'
+// import Acievements from './Components/PageSections/Achievements'
+// import Hobbies from './Components/PageSections/Hobbies'
 import Contact from './Components/PageSections/Contact'
 
 
