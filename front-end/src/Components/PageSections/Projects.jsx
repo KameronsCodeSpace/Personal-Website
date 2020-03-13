@@ -9,6 +9,7 @@ import project6 from '../../images/Project6.jpg';
 function Projects() {
     return (
         <div className='Projects-Section' id="Projects">
+            <h1> Projects</h1>
             <section className='xop-section'>
                 <div className='xop-container'>
                     <a className='project' href='#'>
