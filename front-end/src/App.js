@@ -8,7 +8,9 @@ import Projects from './Components/PageSections/Projects'
 import Skills from './Components/PageSections/Skills'
 // import Acievements from './Components/PageSections/Achievements'
 // import Hobbies from './Components/PageSections/Hobbies'
-import Contact from './Components/PageSections/Contact'
+// import Contact from './Components/PageSections/Contact'
+import Footer from './Components/PageSections/Footer'
+
 
 
 // import { Switch, Route } from 'react-router-dom'
@@ -26,7 +28,8 @@ class App extends Component {
         <Skills />
         {/* <Acievements />
         <Hobbies /> */}
-        <Contact />
+        {/* <Contact /> */}
+        <Footer />
       </div>
     );
   }

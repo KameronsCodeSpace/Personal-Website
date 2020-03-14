@@ -69,7 +69,7 @@ function Nav() {
                                     >Hobbies</Link>
                                 </li> */}
 
-                                <li>
+                                {/* <li>
                                     <Link
                                         activeClass="active"
                                         to="Contact"
@@ -78,7 +78,7 @@ function Nav() {
                                         offset={0}
                                         duration={500}
                                     >Contact</Link>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </div>
