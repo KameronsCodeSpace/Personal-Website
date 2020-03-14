@@ -24,8 +24,8 @@ function Profile() {
 
                     <p>
                         I am a Pursuit fellow on a 12 month intensive
-                        training program to become a competative Full
-                        Stack Web Developer. I've gain a lot of experience
+                        training program to become a competitive Full
+                        Stack Web Developer. I've gained a lot of experience
                         working with my fellow classmates on many different
                         projects. I've developed a deep understanding of
                         javascript, css, React, data structures and many
