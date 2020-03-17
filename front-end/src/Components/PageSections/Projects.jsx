@@ -6,6 +6,8 @@ import project4 from '../../images/Project4.png';
 import project5 from '../../images/Project5.jpeg';
 import project6 from '../../images/Project6.jpg';
 
+// https://the-youtube-replica.netlify.com/
+
 function Projects() {
     return (
         <div className='Projects-Section' id="Projects">
@@ -18,7 +20,7 @@ function Projects() {
                             <figcaption>
                                 <div>
                                     <h3>A9 Fashion Design</h3>
-                                    <p className='cta'>View Project</p>
+                                    <a href='https://github.com/KameronsCodeSpace/Fashion-Hackathon'><p className='cta'>View Project</p></a>
                                 </div>
                             </figcaption>
                         </figure>
@@ -29,7 +31,7 @@ function Projects() {
                             <figcaption>
                                 <div>
                                     <h3>Collage Entourage</h3>
-                                    <p className='cta'>View Project</p>
+                                    <a href='https://github.com/KameronsCodeSpace/Social-Media-React'><p className='cta'>View Project</p></a>
                                 </div>
                             </figcaption>
                         </figure>
@@ -40,7 +42,7 @@ function Projects() {
                             <figcaption>
                                 <div>
                                     <h3>Pokehangmon</h3>
-                                    <p className='cta'>View Project</p>
+                                    <a href='https://github.com/KameronsCodeSpace/Pokehangmon'><p className='cta'>View Project</p></a>
                                 </div>
                             </figcaption>
                         </figure>
@@ -51,7 +53,7 @@ function Projects() {
                             <figcaption>
                                 <div>
                                     <h3>Youtube Api</h3>
-                                    <p className='cta'>View Project</p>
+                                    <a href='https://the-youtube-replica.netlify.com/'><p className='cta'>View Project</p></a>
                                 </div>
                             </figcaption>
                         </figure>
@@ -62,7 +64,7 @@ function Projects() {
                             <figcaption>
                                 <div>
                                     <h3>Linked Lists</h3>
-                                    <p className='cta'>View Project</p>
+                                    <a href=''><p className='cta'>View Project</p></a>
                                 </div>
                             </figcaption>
                         </figure>
@@ -73,7 +75,7 @@ function Projects() {
                             <figcaption>
                                 <div>
                                     <h3>Lurk</h3>
-                                    <p className='cta'>View Project</p>
+                                    <a href='https://github.com/KameronsCodeSpace/SocialMediaApp'><p className='cta'>View Project</p></a>
                                 </div>
                             </figcaption>
                         </figure>
