@@ -14,7 +14,7 @@ function Projects() {
             <h1> Projects</h1>
             <section className='xop-section'>
                 <div className='xop-container'>
-                    <a className='project' href='#'>
+                    <p className='project' href=' '>
                         <figure>
                             <img src={project1} alt='project1 img' />
                             <figcaption>
@@ -24,8 +24,8 @@ function Projects() {
                                 </div>
                             </figcaption>
                         </figure>
-                    </a>
-                    <a className='project' href='#'>
+                    </p>
+                    <p className='project' href=' '>
                         <figure>
                             <img src={project2} alt='project2 img' />
                             <figcaption>
@@ -35,8 +35,8 @@ function Projects() {
                                 </div>
                             </figcaption>
                         </figure>
-                    </a>
-                    <a className='project' href='#'>
+                    </p>
+                    <p className='project' href=' '>
                         <figure>
                             <img src={project3} alt='project3 img' />
                             <figcaption>
@@ -46,8 +46,8 @@ function Projects() {
                                 </div>
                             </figcaption>
                         </figure>
-                    </a>
-                    <a className='project' href='#'>
+                    </p>
+                    <p className='project' href=' '>
                         <figure>
                             <img src={project4} alt='project4 img' />
                             <figcaption>
@@ -57,19 +57,19 @@ function Projects() {
                                 </div>
                             </figcaption>
                         </figure>
-                    </a>
-                    <a className='project' href='#'>
+                    </p>
+                    <p className='project' href=' '>
                         <figure>
                             <img src={project5} alt='projec5 img' />
                             <figcaption>
                                 <div>
                                     <h3>Linked Lists</h3>
-                                    <a href=''><p className='cta'>View Project</p></a>
+                                    <a href=' '><p className='cta'>View Project</p></a>
                                 </div>
                             </figcaption>
                         </figure>
-                    </a>
-                    <a className='project' href='#'>
+                    </p>
+                    <p className='project' href=' '>
                         <figure>
                             <img src={project6} alt='project6 img' />
                             <figcaption>
@@ -79,7 +79,7 @@ function Projects() {
                                 </div>
                             </figcaption>
                         </figure>
-                    </a>
+                    </p>
                 </div>
             </section>
         </div>
