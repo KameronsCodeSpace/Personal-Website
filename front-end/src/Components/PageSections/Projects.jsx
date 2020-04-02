@@ -3,7 +3,7 @@ import project1 from '../../images/Project1.jpg';
 import project2 from '../../images/Project2.jpg';
 import project3 from '../../images/Project3.png';
 import project4 from '../../images/Project4.png';
-import project5 from '../../images/Project5.jpeg';
+import project5 from '../../images/Project5.png';
 import project6 from '../../images/Project6.jpg';
 
 // https://the-youtube-replica.netlify.com/
@@ -63,8 +63,8 @@ function Projects() {
                             <img src={project5} alt='projec5 img' />
                             <figcaption>
                                 <div>
-                                    <h3>Linked Lists</h3>
-                                    <a href=' '><p className='cta'>View Project</p></a>
+                                    <h3>Game of Life</h3>
+                                    <a href='https://kamerons-game-of-life.netlify.com/'><p className='cta'>View Project</p></a>
                                 </div>
                             </figcaption>
                         </figure>
